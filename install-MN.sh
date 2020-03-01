@@ -10,6 +10,7 @@ CONF_DIR=~/.sovranocoin
 COINKEY=MN
 
 cd ~
+sovranocoin-cli stop
 rm -rf install-MN.sh* MNupdate.sh* SovranoCoin-qt-linux.zip*
 mkdir -p $CONF_DIR
 echo && echo && echo -e "${BCyan}"
