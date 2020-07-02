@@ -17,7 +17,7 @@ After the MN is up and running, you need to configure the desktop wallet accordi
 3. Send **1000** SVR to **MN1**. You need to send all 1000 coins in one single transaction.
 4. Wait for 15 confirmations.  
 5. Go to **Help -> "Debug Window - Console"**  
-6. Type the following command: **masternode outputs**
+6. Type the following command: **getmasternodeoutputs**
 7. Go to  **Tools -> "Open Masternode Configuration File"**
 8. Add the following entry:
 ```
@@ -34,18 +34,18 @@ Alias Address Privkey TxHash Output_index
 12. Select your MN and click **Start Alias** to start it.
 13. Alternatively, open **Debug Console** and type:
 ```
-masternode start-alias "MN1"
+startmasternode alias false "MN1"
 ```
 14. Login to your VPS and check your masternode status by running the following command:.
 ```
-sovranocoin-cli masternode status
+sovranocoin-cli getmasternodestatus
 ```
 ***
 
 ## Usage:
 ```
 sovranocoin-cli mnsync status
-sovranocoin-cli masternode status  
+sovranocoin-cli getmasternodestatus  
 sovranocoin-cli getinfo
 ```
 
