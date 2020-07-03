@@ -4,6 +4,8 @@ Shell script to install a [SovranoCoin Masternode](http://www.sovranocoin.com) o
 
 ## Installation
 ```
+In case of ubuntu18.0.4 :
+
 wget https://raw.githubusercontent.com/SovranoCoin/MNinstall/master/install-MN.sh
 bash install-MN.sh
 
