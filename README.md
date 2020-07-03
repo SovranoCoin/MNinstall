@@ -6,6 +6,13 @@ Shell script to install a [SovranoCoin Masternode](http://www.sovranocoin.com) o
 ```
 wget https://raw.githubusercontent.com/SovranoCoin/MNinstall/master/install-MN.sh
 bash install-MN.sh
+
+***********************************
+
+In case of ubuntu16.0.4 :
+
+wget https://raw.githubusercontent.com/SovranoCoin/MNinstall/master/install-MN-16.0.4.sh
+bash install-MN-16.0.4.sh
 ```
 ***
 
